@@ -1,0 +1,33 @@
+Package: retakeanoukmoreno
+Type: Package
+Title: Multiverse Analysis Plots for Hurricane and Beauty Data
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Anouk", "Moreno",
+      email = "anouk.moreno@campus.lmu.de",
+      role = c("aut", "cre")
+    )
+  )
+Description: Provides functions to prepare multiverse analysis datasets
+    and visualize results through density plots and heatmap strips.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+    ggplot2,
+    dplyr,
+    tidyr,
+    patchwork,
+    viridis,
+    rlang,
+    ggtext,
+    stats,
+    grid,
+    utils,
+    magrittr,
+    tibble
+RoxygenNote: 7.3.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
