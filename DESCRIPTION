@@ -11,7 +11,7 @@ Authors@R: c(
   )
 Description: Provides functions to prepare multiverse analysis datasets
     and visualize results through density plots and heatmap strips.
-License: GPL-3
+License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
 Imports:
