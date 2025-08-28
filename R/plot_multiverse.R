@@ -49,7 +49,7 @@ plot_multiverse <- function(use_case = "hurricane", output_path = NULL) {
   # Plots combined + added title
   combined_plot <- density_plot / heatmap_plot +
     patchwork::plot_layout(heights = heights_vector) +
-    patchwork::plot_annotation(title = "Task 2.4: Multiverse analysis of hurricane fatalities (All vs. Significant)") &
+    # patchwork::plot_annotation(title = "Task 2.4: Multiverse analysis of hurricane fatalities (All vs. Significant)") &
     theme(plot.title = element_text(size = 11, face = "bold", hjust = 0.5))
 
   # Optional save with specified sizes
